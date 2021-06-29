@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import AppIcon from './components/logo.js';
+import NavBar from './components/navbar/NavBar';
+import Main from './components/main/Main';
+import Login from './connects/auth/LoginForm';
 
-function App() {
+function App({auth}) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {(!auth || !auth.token) && <Login />}   
+      {(auth && auth.token) && (<div><NavBar/><Main/></div>)}   
     </div>
   );
 }
-
 export default App;

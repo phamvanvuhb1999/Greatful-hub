@@ -1,0 +1,10 @@
+.FriendNews {
+    display: flex;
+    flex-direction: row;
+}
+
+.slide-bar__video {
+    width: 19% !important;
+    margin-right: 1%;
+    border-radius: 0.5rem;
+}

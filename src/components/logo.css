@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.AppIcon {
+    background-color: rgb(84, 195, 214);
+    color: rgb(243, 233, 97);
+}
+
+.AppIcon>h3 {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    block-size: fit-content;
+}

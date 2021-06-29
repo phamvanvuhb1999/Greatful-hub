@@ -1,0 +1,79 @@
+.LoginForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    background: white;
+    position: relative;
+    justify-content: center;
+}
+
+.account-info {
+    display: flex;
+    flex-direction: column;
+    background-color: #ebf1f1;
+    border-radius: 0.4rem;
+    width: 25%;
+    padding-bottom: 1rem;
+    margin-right: 4rem;
+}
+
+.account-info>img {
+    width: 100%;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+}
+
+.account-info>h4 {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form>img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border: 1px solid rgb(158, 155, 155);
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background: #ebf1f1;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin-top: -4rem;
+    border: 1px solid rgb(158, 155, 155);
+    border-top: none;
+    padding-bottom: 1rem;
+}
+
+.login-form>input {
+    font-size: 1rem;
+    margin: 1rem 0.5rem;
+    border-radius: 0.4rem;
+    width: 90%;
+    padding: 10px 6px;
+    opacity: 0.8;
+}
+
+.login-form>input:focus {
+    outline: none;
+    border-color: rgb(0, 0, 255);
+}
+
+.login-form>button {
+    font-size: 1.5rem;
+    width: 40%;
+    background-color: rgb(19, 248, 248);
+    color: rgb(255, 255, 255);
+    border-radius: 0.4rem;
+    padding: 3px 0;
+}

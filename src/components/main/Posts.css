@@ -1,0 +1,7 @@
+.Posts {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    margin-top: 0.2rem;
+    z-index: 8;
+}

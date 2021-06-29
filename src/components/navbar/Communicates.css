@@ -1,0 +1,18 @@
+.Communicates {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    justify-content: space-between;
+}
+
+.chats,
+.notifications,
+.account {
+    padding: 5px 2rem;
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.chats:hover,
+.notifications:hover,
+.account:hover {}

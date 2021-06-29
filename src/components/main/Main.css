@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Main {
+    background: rgb(236, 231, 231);
+    display: flex;
+    flex-direction: row;
+}

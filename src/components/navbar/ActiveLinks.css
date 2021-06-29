@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.ActiveLinks {
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home,
+.friends,
+.games,
+.watches {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding: 5px;
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.home:hover,
+.games:hover,
+.friends:hover,
+.watches:hover {
+    background: rgb(225, 240, 247);
+}

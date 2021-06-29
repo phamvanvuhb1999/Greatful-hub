@@ -1,0 +1,5 @@
+.Content {
+    width: 50% !important;
+    display: flex;
+    flex-direction: column;
+}
