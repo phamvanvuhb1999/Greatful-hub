@@ -6,7 +6,7 @@ import storage from 'redux-persist/lib/storage';
 import authReducer from './auth';
 
 const reducer = combineReducers({
-    auth: authReducer
+    auth: authReducer //token , profile
 });
 
 const persistConfig = {

@@ -8,7 +8,7 @@ function App({auth}) {
   return (
     <div className="App">
       {(!auth || !auth.token) && <Login />}   
-      {(auth && auth.token) && (<div><NavBar/><Main/></div>)}   
+      {(auth && auth.token) && (<div><NavBar/><Main auth={auth}/></div>)}   
     </div>
   );
 }

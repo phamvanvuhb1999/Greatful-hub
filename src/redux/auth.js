@@ -24,6 +24,7 @@ export const login = ({ email, password }) => async(dispatch) => {
         email,
         password
     });
+    console.log(res.data);
     dispatch(LoginSuccess(res.data));
 }
 
